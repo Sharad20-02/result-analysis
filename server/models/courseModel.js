@@ -17,7 +17,7 @@ const courseSchema = new mongoose.Schema({
     required: [true, 'Please provide semester'],
   },
   credits: {
-    type: Number,
+    type: Number, 
     required: [true, 'Please provide credits'],
   },
 });
